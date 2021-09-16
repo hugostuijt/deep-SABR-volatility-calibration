@@ -1,4 +1,4 @@
-# Deep calibration of SABR stochastic solatility
+# Deep calibration of SABR stochastic volatility
 Master Thesis Quantitative Finance
 --------------------------------------------
 
