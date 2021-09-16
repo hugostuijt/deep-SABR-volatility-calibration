@@ -7,6 +7,7 @@ My thesis attempts to increase the accuracy of the SABR stochastic volatility mo
 The thesis PDF can be found in the main folder. In each folder within the `Code` folder a seperate readme with description of all files can be found. 
 
 ==================================================================================================
+
 ABSTRACT
 
 We present a calibration method for the SABR stochastic volatility model based on machine learning
@@ -21,4 +22,5 @@ neural network with market data. By applying the methods to S&P500 options, we o
 uncertainty in the SABR parameters calibrated by the neural network, creating instabilities in the
 estimated vega hedges. Nevertheless, the results show the potential for neural networks to improve
 SABR calibration speed and accuracy significantly.
+
 ==================================================================================================
