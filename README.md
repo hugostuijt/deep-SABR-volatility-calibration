@@ -6,7 +6,7 @@ My thesis attempts to increase the accuracy of the SABR stochastic volatility mo
 
 The thesis PDF can be found in the main folder. In each folder within the `Code` folder a seperate readme with description of all files can be found. 
 
-==================================================================================================
+--------------------------------------------
 
 ABSTRACT
 
@@ -23,4 +23,5 @@ uncertainty in the SABR parameters calibrated by the neural network, creating in
 estimated vega hedges. Nevertheless, the results show the potential for neural networks to improve
 SABR calibration speed and accuracy significantly.
 
-==================================================================================================
+--------------------------------------------
+
