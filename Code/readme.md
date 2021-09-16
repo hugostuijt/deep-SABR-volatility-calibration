@@ -1,7 +1,7 @@
-Deep calibration of SABR stochastic volatility[¶](#Deep-calibration-of-SABR-stochastic-volatility) {#Deep-calibration-of-SABR-stochastic-volatility}
+Deep calibration of SABR stochastic volatility
 ==================================================================================================
 
-Description of code[¶](#Description-of-code) {#Description-of-code}
+Description of code
 --------------------------------------------
 
 by Hugo Stuijt
@@ -25,10 +25,10 @@ volatility approximator classes are found (they are children from the
 main folder I initiate them using e.g. `Hagan()`, an implied vol
 estimate can be calculated using `Hagan().calc_iv(...)`
 
-List of Notebooks[¶](#List-of-Notebooks) {#List-of-Notebooks}
+List of Notebooks
 ----------------------------------------
 
-### Plots[¶](#Plots) {#Plots}
+### Plots
 
 All Notebooks for plots of the results
 
@@ -48,7 +48,7 @@ All Notebooks for plots of the results
 -   `plot spx full sample.ipynb`: results for full sample spx
     (calculations made in `plot hagan SPX params.ipynb`).
 
-### Additional Notebooks[¶](#Additional-Notebooks) {#Additional-Notebooks}
+### Additional Notebooks
 
 -   `ANN_training_pointwise.ipynb`: Network training
 -   `Bayesian Calibration.ipynb`: Bayesian calibration on simulated
@@ -66,7 +66,7 @@ All Notebooks for plots of the results
 -   `SPX surface evaluation.ipynb`: results and plots of the SPX full
     surface calibration (Augst 5th 2019)
 
-List of Python files[¶](#List-of-Python-files) {#List-of-Python-files}
+List of Python files
 ----------------------------------------------
 
 -   `analyze_calibration_accuracy.py`: calibrates the 10,000 simulated
