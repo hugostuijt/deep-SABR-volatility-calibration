@@ -1,9 +1,12 @@
-# Deep calibration of SABR stochastic solatility
+# Deep calibration of SABR stochastic volatility
 Master Thesis Quantitative Finance
+--------------------------------------------
 
 My thesis attempts to increase the accuracy of the SABR stochastic volatility model (used to model the implied volatility curve) while maintaining fast calibration speeds. I approximate a very accurate, but numerically intense SABR implied volatility function using a deepfeed neural network. Calibration accuracy is increased significantly on simulated data (based on implied vol estimates, as well as skew delta and vega calculations). However, performance lacks on real market data (S&P500 options). 
 
-The thesis PDF can be found in the main folder. In each folder within the `Code` folder a seperate readme with description of all files can be found. 
+The thesis PDF can be found in the main folder. In each folder within the `Code` folder a separate readme with description of all files can be found. 
+
+--------------------------------------------
 
 ABSTRACT
 
@@ -19,3 +22,6 @@ neural network with market data. By applying the methods to S&P500 options, we o
 uncertainty in the SABR parameters calibrated by the neural network, creating instabilities in the
 estimated vega hedges. Nevertheless, the results show the potential for neural networks to improve
 SABR calibration speed and accuracy significantly.
+
+--------------------------------------------
+
